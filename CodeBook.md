@@ -35,75 +35,74 @@ Then the 3 tables are combined to create a tidy data set.
 ##Data
 ##tidy
 The resultant tidy data set (named “tidy” in this repo) has the following columns (total 68)
-
-subject
-activity
-tbodyaccmeanx
-tbodyaccmeany
-tbodyaccmeanz
-tbodyaccstddevx
-tbodyaccstddevy
-tbodyaccstddevz
-tgravityaccmeanx
-tgravityaccmeany
-tgravityaccmeanz
-tgravityaccstddevx
-tgravityaccstddevy
-tgravityaccstddevz
-tbodyaccjerkmeanx
-tbodyaccjerkmeany
-tbodyaccjerkmeanz
-tbodyaccjerkstddevx
-tbodyaccjerkstddevy
-tbodyaccjerkstddevz
-tbodygyromeanx
-tbodygyromeany
-tbodygyromeanz
-tbodygyrostddevx
-tbodygyrostddevy
-tbodygyrostddevz
-tbodygyrojerkmeanx
-tbodygyrojerkmeany
-tbodygyrojerkmeanz
-tbodygyrojerkstddevx
-tbodygyrojerkstddevy
-tbodygyrojerkstddevz
-tbodyaccmagmean
-tbodyaccmagstddev
-tgravityaccmagmean
-tgravityaccmagstddev
-tbodyaccjerkmagmean
-tbodyaccjerkmagstddev
-tbodygyromagmean
-tbodygyromagstddev
-tbodygyrojerkmagmean
-tbodygyrojerkmagstddev
-fbodyaccmeanx
-fbodyaccmeany
-fbodyaccmeanz
-fbodyaccstddevx
-fbodyaccstddevy
-fbodyaccstddevz
-fbodyaccjerkmeanx
-fbodyaccjerkmeany
-fbodyaccjerkmeanz
-fbodyaccjerkstddevx
-fbodyaccjerkstddevy
-fbodyaccjerkstddevz
-fbodygyromeanx
-fbodygyromeany
-fbodygyromeanz
-fbodygyrostddevx
-fbodygyrostddevy
-fbodygyrostddevz
-fbodyaccmagmean
-fbodyaccmagstddev
-fbodybodyaccjerkmagmean
-fbodybodyaccjerkmagstddev
-fbodybodygyromagmean
-fbodybodygyromagstddev
-fbodybodygyrojerkmagmean
-fbodybodygyrojerkmagstddev
+1.	subject
+2.	activity
+3.	tbodyaccmeanx
+4.	tbodyaccmeany
+5.	tbodyaccmeanz
+6.	tbodyaccstddevx
+7.	tbodyaccstddevy
+8.	tbodyaccstddevz
+9.	tgravityaccmeanx
+10.	tgravityaccmeany
+11.	tgravityaccmeanz
+12.	tgravityaccstddevx
+13.	tgravityaccstddevy
+14.	tgravityaccstddevz
+15.	tbodyaccjerkmeanx
+16.	tbodyaccjerkmeany
+17.	tbodyaccjerkmeanz
+18.	tbodyaccjerkstddevx
+19.	tbodyaccjerkstddevy
+20.	tbodyaccjerkstddevz
+21.	tbodygyromeanx
+22.	tbodygyromeany
+23.	tbodygyromeanz
+24.	tbodygyrostddevx
+25.	tbodygyrostddevy
+26.	tbodygyrostddevz
+27.	tbodygyrojerkmeanx
+28.	tbodygyrojerkmeany
+29.	tbodygyrojerkmeanz
+30.	tbodygyrojerkstddevx
+31.	tbodygyrojerkstddevy
+32.	tbodygyrojerkstddevz
+33.	tbodyaccmagmean
+34.	tbodyaccmagstddev
+35.	tgravityaccmagmean
+36.	tgravityaccmagstddev
+37.	tbodyaccjerkmagmean
+38.	tbodyaccjerkmagstddev
+39.	tbodygyromagmean
+40.	tbodygyromagstddev
+41.	tbodygyrojerkmagmean
+42.	tbodygyrojerkmagstddev
+43.	fbodyaccmeanx
+44.	fbodyaccmeany
+45.	fbodyaccmeanz
+46.	fbodyaccstddevx
+47.	fbodyaccstddevy
+48.	fbodyaccstddevz
+49.	fbodyaccjerkmeanx
+50.	fbodyaccjerkmeany
+51.	fbodyaccjerkmeanz
+52.	fbodyaccjerkstddevx
+53.	fbodyaccjerkstddevy
+54.	fbodyaccjerkstddevz
+55.	fbodygyromeanx
+56.	fbodygyromeany
+57.	fbodygyromeanz
+58.	fbodygyrostddevx
+59.	fbodygyrostddevy
+60.	fbodygyrostddevz
+61.	fbodyaccmagmean
+62.	fbodyaccmagstddev
+63.	fbodybodyaccjerkmagmean
+64.	fbodybodyaccjerkmagstddev
+65.	fbodybodygyromagmean
+66.	fbodybodygyromagstddev
+67.	fbodybodygyrojerkmagmean
+68.	fbodybodygyrojerkmagstddev
 
 First two columns “subject” and “activity” provide the identification of subject and the activity for which a given measurement is recorded as value.
 
