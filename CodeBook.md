@@ -32,8 +32,12 @@ Then the 3 tables are combined to create a tidy data set.
 
 The resultant tidy data set (named “tidy” in this repo) has the following columns (total 68)
 
+First two columns “subject” and “activity” provide the identification of subject and the activity for which a given measurement is recorded as value.
 1. subject
 2. activity
+
+The next 66 columns represent either a mean or a standard deviation measurement. Columns with 'mean' in their names represent a mean measurement and columns with 'stddev' in their name represent a standard deviation measurement.
+
 3. tbodyaccmeanx
 4. tbodyaccmeany
 5. tbodyaccmeanz
@@ -101,7 +105,7 @@ The resultant tidy data set (named “tidy” in this repo) has the following co
 67.	fbodybodygyrojerkmagmean
 68.	fbodybodygyrojerkmagstddev
 
-First two columns “subject” and “activity” provide the identification of subject and the activity for which a given measurement is recorded as value.
+
 
 ##tidy_avg
 From the tidy data table above, a second, independent tidy data set with the average of each variable for each activity and each subject is created.
