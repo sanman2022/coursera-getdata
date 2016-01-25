@@ -11,9 +11,13 @@ The features selected for this database come from the accelerometer and gyroscop
 
 ##Project Analysis
 The data is read into 6 tables
+
 df_X_train= Training data 
+
 df_y_train= Activity information for the training data
+
 df_subject_train=Subject information for the training data
+
 3 similar tables are used for the test data. 
 
 Then this project merges the training and test data, and creates one merged data set. For this exercise train data is followed by test for the merging purpose. Though the sequence doesn’t matter per se, but it has to be done in the same order for all 3 tables.
@@ -32,21 +36,74 @@ Then the 3 tables are combined to create a tidy data set.
 ##tidy
 The resultant tidy data set (named “tidy” in this repo) has the following columns (total 68)
 
-
-[1] "subject"                    "activity"                   "tbodyaccmeanx"              "tbodyaccmeany"              "tbodyaccmeanz"             
-[6] "tbodyaccstddevx"            "tbodyaccstddevy"            "tbodyaccstddevz"            "tgravityaccmeanx"           "tgravityaccmeany"          
-[11] "tgravityaccmeanz"           "tgravityaccstddevx"         "tgravityaccstddevy"         "tgravityaccstddevz"         "tbodyaccjerkmeanx"         
-[16] "tbodyaccjerkmeany"          "tbodyaccjerkmeanz"          "tbodyaccjerkstddevx"        "tbodyaccjerkstddevy"        "tbodyaccjerkstddevz"       
-[21] "tbodygyromeanx"             "tbodygyromeany"             "tbodygyromeanz"             "tbodygyrostddevx"           "tbodygyrostddevy"          
-[26] "tbodygyrostddevz"           "tbodygyrojerkmeanx"         "tbodygyrojerkmeany"         "tbodygyrojerkmeanz"         "tbodygyrojerkstddevx"      
-[31] "tbodygyrojerkstddevy"       "tbodygyrojerkstddevz"       "tbodyaccmagmean"            "tbodyaccmagstddev"          "tgravityaccmagmean"        
-[36] "tgravityaccmagstddev"       "tbodyaccjerkmagmean"        "tbodyaccjerkmagstddev"      "tbodygyromagmean"           "tbodygyromagstddev"        
-[41] "tbodygyrojerkmagmean"       "tbodygyrojerkmagstddev"     "fbodyaccmeanx"              "fbodyaccmeany"              "fbodyaccmeanz"             
-[46] "fbodyaccstddevx"            "fbodyaccstddevy"            "fbodyaccstddevz"            "fbodyaccjerkmeanx"          "fbodyaccjerkmeany"         
-[51] "fbodyaccjerkmeanz"          "fbodyaccjerkstddevx"        "fbodyaccjerkstddevy"        "fbodyaccjerkstddevz"        "fbodygyromeanx"            
-[56] "fbodygyromeany"             "fbodygyromeanz"             "fbodygyrostddevx"           "fbodygyrostddevy"           "fbodygyrostddevz"          
-[61] "fbodyaccmagmean"            "fbodyaccmagstddev"          "fbodybodyaccjerkmagmean"    "fbodybodyaccjerkmagstddev"  "fbodybodygyromagmean"      
-[66] "fbodybodygyromagstddev"     "fbodybodygyrojerkmagmean"   "fbodybodygyrojerkmagstddev"
+subject
+activity
+tbodyaccmeanx
+tbodyaccmeany
+tbodyaccmeanz
+tbodyaccstddevx
+tbodyaccstddevy
+tbodyaccstddevz
+tgravityaccmeanx
+tgravityaccmeany
+tgravityaccmeanz
+tgravityaccstddevx
+tgravityaccstddevy
+tgravityaccstddevz
+tbodyaccjerkmeanx
+tbodyaccjerkmeany
+tbodyaccjerkmeanz
+tbodyaccjerkstddevx
+tbodyaccjerkstddevy
+tbodyaccjerkstddevz
+tbodygyromeanx
+tbodygyromeany
+tbodygyromeanz
+tbodygyrostddevx
+tbodygyrostddevy
+tbodygyrostddevz
+tbodygyrojerkmeanx
+tbodygyrojerkmeany
+tbodygyrojerkmeanz
+tbodygyrojerkstddevx
+tbodygyrojerkstddevy
+tbodygyrojerkstddevz
+tbodyaccmagmean
+tbodyaccmagstddev
+tgravityaccmagmean
+tgravityaccmagstddev
+tbodyaccjerkmagmean
+tbodyaccjerkmagstddev
+tbodygyromagmean
+tbodygyromagstddev
+tbodygyrojerkmagmean
+tbodygyrojerkmagstddev
+fbodyaccmeanx
+fbodyaccmeany
+fbodyaccmeanz
+fbodyaccstddevx
+fbodyaccstddevy
+fbodyaccstddevz
+fbodyaccjerkmeanx
+fbodyaccjerkmeany
+fbodyaccjerkmeanz
+fbodyaccjerkstddevx
+fbodyaccjerkstddevy
+fbodyaccjerkstddevz
+fbodygyromeanx
+fbodygyromeany
+fbodygyromeanz
+fbodygyrostddevx
+fbodygyrostddevy
+fbodygyrostddevz
+fbodyaccmagmean
+fbodyaccmagstddev
+fbodybodyaccjerkmagmean
+fbodybodyaccjerkmagstddev
+fbodybodygyromagmean
+fbodybodygyromagstddev
+fbodybodygyrojerkmagmean
+fbodybodygyrojerkmagstddev
 
 First two columns “subject” and “activity” provide the identification of subject and the activity for which a given measurement is recorded as value.
 
