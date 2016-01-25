@@ -31,6 +31,7 @@ Then the 3 tables are combined to create a tidy data set.
 ##tidy
 
 The resultant tidy data set (named “tidy” in this repo) has the following columns (total 68)
+
 1. subject
 2. activity
 3. tbodyaccmeanx
