@@ -12,12 +12,12 @@ The features selected for this database come from the accelerometer and gyroscop
 ## Content of this Repo
 
 ### run_analysis.R
-Download this R file in a working directory.
+
 1. This script works with a data directory. If it doesn't exist, it creates one.
 2. It downoads the data from the above mentioned source and unzips it. 
 3. Runs the analysis. See [CodeBook.md](CodeBook.md) for more info. 
 4. Produes tidy.txt and tidy_avg.txt datasets
-5. 
+
 
 ## CodeBook.md
 Guide to understand the source data, analysis, and result data sets
