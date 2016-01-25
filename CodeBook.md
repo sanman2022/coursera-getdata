@@ -39,7 +39,6 @@ First two columns “subject” and “activity” provide the identification of
 2. activity
 
 The next 66 columns represent either a mean or a standard deviation measurement. Columns with 'mean' in their names represent a mean measurement and columns with 'stddev' in their name represent a standard deviation measurement.
-
 3. tbodyaccmeanx
 4. tbodyaccmeany
 5. tbodyaccmeanz
