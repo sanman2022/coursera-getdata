@@ -33,6 +33,7 @@ Then the 3 tables are combined to create a tidy data set.
 The resultant tidy data set (named “tidy” in this repo) has the following columns (total 68)
 
 First two columns “subject” and “activity” provide the identification of subject and the activity for which a given measurement is recorded as value.
+
 1. subject
 2. activity
 
