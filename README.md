@@ -23,7 +23,7 @@ The features selected for this database come from the accelerometer and gyroscop
 Guide to understand the source data, analysis, and result data sets
 
 ## tidy.txt
-Merged and cleaned (variable names) data set. See [CodeBook.md](CodeBook.md) for more info. 
+Merged and cleaned tidy data set. See [CodeBook.md](CodeBook.md) for more info. 
 
 ## tidy_avg.txt
-Data set that contains averages of the mean and standard deviation measurements. See [CodeBook.md](CodeBook.md) for more info. 
+Data set that contains averages of the mean and standard deviation measurements from the tidy dat set. See [CodeBook.md](CodeBook.md) for more info. 
