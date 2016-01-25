@@ -14,6 +14,7 @@ The data is read into 6 tables
 * df_X_train= Training data 
 * df_y_train= Activity information for the training data
 * df_subject_train=Subject information for the training data
+
 3 similar tables are used for the test data. 
 
 Then this project merges the training and test data, and creates one merged data set. For this exercise train data is followed by test for the merging purpose. Though the sequence doesn’t matter per se, but it has to be done in the same order for all 3 tables.
